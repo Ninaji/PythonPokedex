@@ -1,0 +1,9 @@
+<!-- templates/success.html -->
+{% extends "base.html" %}
+
+{% block title %}Sucesso{% endblock %}
+
+{% block content %}
+    <h1 class="mt-5">Bem-vindo, {{ usuario }}!</h1>
+    <a href="/logout" class="btn btn-danger mt-3">Sair</a>
+{% endblock %}
